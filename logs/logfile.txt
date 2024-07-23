@@ -1,0 +1,92 @@
+[2024-07-23 06:02:53] [INFO ] Creating Socket.
+[2024-07-23 06:02:53] [INFO ] Binding to port
+[2024-07-23 06:02:53] [INFO ] Listening for incoming connections
+[2024-07-23 06:02:53] [INFO ] Server Listening on port. 15836
+
+[2024-07-23 06:03:39] [INFO ] Searching for a file in filesystem with filePath - 
+[2024-07-23 06:03:39] [INFO ] File exists - TRUE
+[2024-07-23 06:03:54] [INFO ] Searching for a file in filesystem with filePath - 
+[2024-07-23 06:03:54] [FATAL] File exists - FALSE
+[2024-07-23 06:04:10] [INFO ] Searching for the string 'include' in the filesystem
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/try.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/check/sf_displayFileContents.o
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/check/server.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/check/sf_displayFileContents.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/check/sf_searchForString.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/check/client.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/check/sf_searchForFile.o
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/check/sf_searchForFile.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/calc/src/main.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/calc/test/calc_testfunctions.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/calc/test/logmsg.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/calc/test/calc_test.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/calc/make/makescript
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/sprint/src/searchForString.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/sprint/src/searchInFile.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/sprint/src/displayFileContents.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/sprint/src/server.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/sprint/src/searchInDirectory.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/sprint/src/client.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/sprint/src/logs.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/sprint/src/searchForFile.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/sprint/logs/logfile.txt
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/sprint/bin/server
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/sprint/data/text2.txt
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/sprint/data/server.txt
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/sprint/object/searchForString.o
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/sprint/make/makefile
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/pipes/fullduplex.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/pipes/5.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/pipes/2.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/pipes/3.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/pipes/pipe_1.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/pipes/pipe_2.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/pipes/1.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/signals/sigaction1.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/signals/advanceSignal.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/signals/basicSignalDemo.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/signals/7.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/signals/cautionwithsignal.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/signals/sigAlarm.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/signals/alarm.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/signals/5.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/signals/2.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/signals/6_sender.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/signals/sigaction_mask.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/signals/3.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/signals/4.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/signals/6_receiver.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/signals/1.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/fork/fork1.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/TrainingJune13/pointers/addnumbers.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/Sprint-13th-july/src/searchForString.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/Sprint-13th-july/src/searchInFile.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/Sprint-13th-july/src/displayFileContents.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/Sprint-13th-july/src/server.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/Sprint-13th-july/src/searchInDirectory.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/Sprint-13th-july/src/client.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/Sprint-13th-july/src/logs.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/Sprint-13th-july/src/searchForFile.c
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/Sprint-13th-july/logs/logfile.txt
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/Sprint-13th-july/bin/server
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/Sprint-13th-july/data/text2.txt
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/Sprint-13th-july/data/server.txt
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/Sprint-13th-july/object/searchForString.o
+[2024-07-23 06:04:10] [INFO ] String found in file - /home2/user16/Sprint-13th-july/make/makefile
+[2024-07-23 06:04:19] [INFO ] Reading contents of file - /home2/user16/Sprint-13th-july/make/makefile
+[2024-07-23 06:04:19] [INFO ] File exists - TRUE
+[2024-07-23 06:04:27] [INFO ] Reading contents of file - /home2/user16/Sprint-13th-july/make/makefile
+[2024-07-23 06:04:27] [INFO ] File exists - TRUE
+[2024-07-23 06:04:31] [INFO ] Exiting execution 
+[2024-07-23 06:04:31] [INFO ] Closing Socket Now. 
+[2024-07-23 06:04:31] [INFO ] Socket is now closed.
+[2024-07-23 06:04:43] [INFO ] Creating Socket.
+[2024-07-23 06:04:43] [INFO ] Binding to port
+[2024-07-23 06:04:43] [INFO ] Listening for incoming connections
+[2024-07-23 06:04:43] [INFO ] Server Listening on port. 15836
+
+[2024-07-23 06:04:53] [INFO ] Searching for a file in filesystem with filePath - 
+[2024-07-23 06:04:53] [INFO ] File exists - TRUE
+[2024-07-23 06:05:05] [INFO ] Exiting execution 
+[2024-07-23 06:05:05] [INFO ] Closing Socket Now. 
+[2024-07-23 06:05:05] [INFO ] Socket is now closed.
