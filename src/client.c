@@ -7,11 +7,11 @@
 #include<limits.h>
 
 
-#define SIZE 10000 
+#define SIZE 16000 
 #define MYPORT 15836 
 
 int main()
-{
+{   // Create socket
     int clientSocket = socket(AF_INET, SOCK_STREAM, 0);
     
     if(clientSocket == -1)
@@ -19,12 +19,11 @@ int main()
         perror("Socket Creation is Failed.");
         exit(EXIT_FAILURE);
     }
-    
+    // Connect to the server
     struct sockaddr_in serverAddress;
-    //memset(&serverAddress, 0, sizeof(serverAddress));
     serverAddress.sin_family = AF_INET;
-    serverAddress.sin_port = htons(MYPORT);
-    serverAddress.sin_addr.s_addr = inet_addr("127.0.0.1");
+    serverAddress.sin_port = htons(MYPORT);			 // Server port
+    serverAddress.sin_addr.s_addr = inet_addr("127.0.0.1");	 // Server IP address
     
     if(connect(clientSocket, (struct sockaddr*)&serverAddress, sizeof(serverAddress)) == -1)
     {
@@ -47,12 +46,13 @@ int main()
         printf("\nEnter your Choice : ");
         
         scanf("%d", &choice);
+	getchar();
         
         send(clientSocket, &choice, sizeof(choice), 0);
         
-	switch(choice)
+	switch(choice)						
         {
-            case 1 :	;
+            case 1 :	;						// Search for file
 			int case1SubChoice = 0;
 		    	printf("    1. Enter with path\n");
                 	printf("    2. Enter without path\n");
@@ -65,7 +65,7 @@ int main()
 			}
                 	if (case1SubChoice == 2) {
 				printf("Enter Filename : ");
-                	    	strcat(basePath, "/home2/user16/Sprint-13th-july/data");
+                	    	strcat(basePath, "/home2/user16/code/data");
                 	}
                 	scanf("%s", buffer);
                 	strcat(basePath, buffer);
@@ -75,10 +75,10 @@ int main()
             
                     break;
                     
-            case 2 :	printf("Enter String : ");
-                	getchar();
-                	scanf("%[^\n]s", buffer);
-                	send(clientSocket, buffer, sizeof(buffer), 0);
+            case 2 :	printf("Enter String : ");		// Search for a string in the filesystem
+			fgets(buffer, sizeof(buffer), stdin);
+			buffer[strcspn(buffer, "\n")] = 0;
+			send(clientSocket, buffer, sizeof(buffer), 0);
                	 	recv(clientSocket, buffer, sizeof(buffer), 0);
                 	printf("Server response : \n %s \n", buffer);
                 	if (strcmp(buffer, "") == 0) 
@@ -95,21 +95,24 @@ int main()
                 	if (case2SubChoice == 1) 
 			{
                     		printf("    Enter the path: ");
-                    		scanf("%[^\n]s", buffer);
+                    		fgets(buffer, sizeof(buffer), stdin);
+                        	buffer[strcspn(buffer, "\n")] = 0;
                     		send(clientSocket, buffer, sizeof(buffer), 0);
                     		recv(clientSocket, buffer, sizeof(buffer), 0);
                     		printf("Server response:\n%s\n", buffer);
-                	} 
-			else 
-			{
-                    		send(clientSocket, "", sizeof(buffer), 0);
                 	}
+			else
+			{
+				send(clientSocket, "", 1, 0);
+				printf("\n\n");
+			}	
+
                     break;
             
-            case 3 :	printf("Enter File Path : ");
-                	getchar();
-                	scanf("%[^\n]s", buffer);
-                	send(clientSocket, buffer, sizeof(buffer), 0);
+            case 3 :	printf("Enter File Path : ");			//  Display the content of a file
+                	fgets(buffer, sizeof(buffer), stdin);
+                        buffer[strcspn(buffer, "\n")] = 0;
+			send(clientSocket, buffer, sizeof(buffer), 0);
                 	recv(clientSocket, buffer, sizeof(buffer), 0);
                 	printf("Server response:\n%s\n", buffer);
                     
@@ -122,7 +125,9 @@ int main()
                     
             default :
                         printf("Invalid Choice \n");
+			break;
         }
     }
+    close(clientSocket);
     return 0;
 }

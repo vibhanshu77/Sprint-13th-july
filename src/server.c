@@ -9,13 +9,13 @@
 #include "../include/loggers.h"
 #include "../include/server_functions.h"
 
-#define SIZE 10000
+#define SIZE 16000
 #define MYPORT 15836
 
 int main()
 {
 	int serverSocket, connectionSocket;
-    
+   	// Create a TCP socket 
     	LOG_INFO("Creating Socket %s", "");
 	logMessage(INFO, "Creating Socket.");
 	serverSocket = socket(AF_INET, SOCK_STREAM, 0);
@@ -26,6 +26,7 @@ int main()
     	    	exit(EXIT_FAILURE);
     	}
     	
+	 // Bind to a specific port
 	LOG_INFO("Binding to port %s", "");
 	logMessage(INFO, "Binding to port");
     	struct sockaddr_in serverAddress;
@@ -40,6 +41,7 @@ int main()
     	    	exit(EXIT_FAILURE);
    	}
     	
+	 // listening for connections
 	LOG_INFO("Listening for incoming connections %s", "");
     	logMessage(INFO, "Listening for incoming connections");
 	if(listen(serverSocket, 5) == -1)
@@ -49,6 +51,7 @@ int main()
     	    	exit(EXIT_FAILURE);
     	}
 
+	// Accept incoming connection
     	LOG_INFO("Server Listening on port. %d\n", MYPORT);
 	logMessage(INFO, "Server Listening on port. %d\n", MYPORT);
     	connectionSocket = accept(serverSocket, NULL, NULL);
@@ -57,27 +60,27 @@ int main()
 		LOG_FATAL("Accept failed %s", "");
 		logMessage(FATAL, "Accept failed ");
                 exit(EXIT_FAILURE);
-        }
-	
-	char buffer[SIZE];
-	char result[SIZE];
+        }	
+
+	 // Accept connections and handle client requests
 	while(1)
-    	{    
-		int choice;		
+    	{
+		int choice;
+	 	// Receive client choice		
 		recv(connectionSocket, &choice, sizeof(choice), 0);
         	LOG_INFO("Choice of client - %d", choice);
         	
-		strcpy(buffer, "");
-        	strcpy(result, "");
-		
+		char buffer[SIZE] = "";
+        	char result[SIZE] = "";
+				
 		switch(choice)
         	{
-        	    case 1 :    recv(connectionSocket, buffer, sizeof(buffer), 0);
+        	    case 1 :    recv(connectionSocket, buffer, sizeof(buffer), 0);	 // Search for file
 				searchForFile(buffer, result);
         	                send(connectionSocket, result, sizeof(result), 0);
         	            	break;
         	            
-        	    case 2 :    recv(connectionSocket, buffer, sizeof(buffer), 0);
+        	    case 2 :    recv(connectionSocket, buffer, sizeof(buffer), 0);	 // Search for string in filesystem
         	                searchForString(buffer, result);
 				send(connectionSocket, result, sizeof(result), 0);
 				if (strcmp(result, "") == 0) 
@@ -91,10 +94,10 @@ int main()
         	        		break;
         	        	}
         	        	displayFileContent(buffer, result);
-        	        	send(connectionSocket, result, sizeof(result), 0);
+				send(connectionSocket, result, sizeof(result), 0);
 			    	break;
         	    
-        	    case 3 : 	recv(connectionSocket, buffer, sizeof(buffer), 0);
+		    case 3 : 	recv(connectionSocket, buffer, sizeof(buffer), 0);	// Display file content
 				displayFileContent(buffer, result);
         	                send(connectionSocket, result, sizeof(result), 0);
         	            	break;
@@ -112,7 +115,10 @@ int main()
         	    default :
 				LOG_WARN("Invalid choice from client %s", "");
 				logMessage(WARN, "Invalid choice from client ");
+				break;
 		}
     	}
+
+    close(connectionSocket);
     return 0;
 }
