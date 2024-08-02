@@ -10,7 +10,7 @@
 #include "../include/server_functions.h"
 
 #define SIZE 16000
-#define MYPORT 15836
+#define MYPORT 15602
 
 int main()
 {

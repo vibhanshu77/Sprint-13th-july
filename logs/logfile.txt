@@ -1,0 +1,120 @@
+[2024-07-24 08:42:56] [INFO ] Creating Socket.
+[2024-07-24 08:42:56] [INFO ] Binding to port
+[2024-07-24 08:42:56] [FATAL] Bind failed 
+[2024-07-24 08:43:33] [INFO ] Creating Socket.
+[2024-07-24 08:43:33] [INFO ] Binding to port
+[2024-07-24 08:43:33] [FATAL] Bind failed 
+[2024-07-24 08:45:12] [INFO ] Creating Socket.
+[2024-07-24 08:45:12] [INFO ] Binding to port
+[2024-07-24 08:45:12] [FATAL] Bind failed 
+[2024-07-24 08:45:13] [INFO ] Creating Socket.
+[2024-07-24 08:45:13] [INFO ] Binding to port
+[2024-07-24 08:45:13] [FATAL] Bind failed 
+[2024-07-24 08:45:14] [INFO ] Creating Socket.
+[2024-07-24 08:45:14] [INFO ] Binding to port
+[2024-07-24 08:45:14] [FATAL] Bind failed 
+[2024-07-24 08:45:16] [INFO ] Creating Socket.
+[2024-07-24 08:45:16] [INFO ] Binding to port
+[2024-07-24 08:45:16] [FATAL] Bind failed 
+[2024-07-24 08:47:21] [INFO ] Creating Socket.
+[2024-07-24 08:47:21] [INFO ] Binding to port
+[2024-07-24 08:47:21] [INFO ] Listening for incoming connections
+[2024-07-24 08:47:21] [INFO ] Server Listening on port. 15602
+
+[2024-07-24 08:47:29] [INFO ] Searching for a file in filesystem with filePath - 
+[2024-07-24 08:47:29] [FATAL] File exists - FALSE
+[2024-07-24 08:47:37] [INFO ] Searching for a file in filesystem with filePath - 
+[2024-07-24 08:47:37] [INFO ] File exists - TRUE
+[2024-07-24 08:48:02] [INFO ] Reading contents of file - /home2/user16/Sprint-13th-july/data/text3
+[2024-07-24 08:48:02] [INFO ] File exists - TRUE
+[2024-07-24 08:48:05] [INFO ] Exiting execution 
+[2024-07-24 08:48:05] [INFO ] Closing Socket Now. 
+[2024-07-24 08:48:05] [INFO ] Socket is now closed.
+[2024-07-24 11:21:32] [INFO ] Creating Socket.
+[2024-07-24 11:21:32] [INFO ] Binding to port
+[2024-07-24 11:21:32] [INFO ] Listening for incoming connections
+[2024-07-24 11:21:32] [INFO ] Server Listening on port. 15602
+
+[2024-07-24 11:23:06] [INFO ] Searching for a file in filesystem with filePath - 
+[2024-07-24 11:23:06] [INFO ] File exists - TRUE
+[2024-07-24 11:23:47] [INFO ] Searching for a file in filesystem with filePath - 
+[2024-07-24 11:23:47] [INFO ] File exists - TRUE
+[2024-07-24 11:24:14] [INFO ] Searching for the string 'Hello' in the filesystem
+[2024-07-24 11:24:14] [INFO ] String found in file - /home2/user16/TrainingJune13/sprint/data/text1.txt
+[2024-07-24 11:24:14] [INFO ] String found in file - /home2/user16/TrainingJune13/pipes/t3.txt
+[2024-07-24 11:24:14] [INFO ] String found in file - /home2/user16/TrainingJune13/pipes/fullduplex.c
+[2024-07-24 11:24:14] [INFO ] String found in file - /home2/user16/TrainingJune13/pipes/2.c
+[2024-07-24 11:24:14] [INFO ] String found in file - /home2/user16/TrainingJune13/pipes/t1.txt
+[2024-07-24 11:24:14] [INFO ] String found in file - /home2/user16/TrainingJune13/fork/fork1.c
+[2024-07-24 11:24:14] [INFO ] String found in file - /home2/user16/TrainingJune13/fork/fork1.out
+[2024-07-24 11:24:14] [INFO ] String found in file - /home2/user16/Sprint-13th-july/logs/logfile.txt
+[2024-07-24 11:24:14] [INFO ] String found in file - /home2/user16/Sprint-13th-july/data/text1
+[2024-07-24 11:24:14] [INFO ] String found in file - /home2/user16/code/logs/logfile.txt
+[2024-07-24 11:24:14] [INFO ] String found in file - /home2/user16/code/data/text1
+[2024-07-24 11:24:33] [INFO ] Reading contents of file - /home2/user16/code/data/text1
+[2024-07-24 11:24:33] [INFO ] File exists - TRUE
+[2024-07-24 11:25:06] [INFO ] Searching for the string 'Hello' in the filesystem
+[2024-07-24 11:25:06] [INFO ] String found in file - /home2/user16/TrainingJune13/sprint/data/text1.txt
+[2024-07-24 11:25:06] [INFO ] String found in file - /home2/user16/TrainingJune13/pipes/t3.txt
+[2024-07-24 11:25:06] [INFO ] String found in file - /home2/user16/TrainingJune13/pipes/fullduplex.c
+[2024-07-24 11:25:06] [INFO ] String found in file - /home2/user16/TrainingJune13/pipes/2.c
+[2024-07-24 11:25:06] [INFO ] String found in file - /home2/user16/TrainingJune13/pipes/t1.txt
+[2024-07-24 11:25:06] [INFO ] String found in file - /home2/user16/TrainingJune13/fork/fork1.c
+[2024-07-24 11:25:06] [INFO ] String found in file - /home2/user16/TrainingJune13/fork/fork1.out
+[2024-07-24 11:25:06] [INFO ] String found in file - /home2/user16/Sprint-13th-july/logs/logfile.txt
+[2024-07-24 11:25:06] [INFO ] String found in file - /home2/user16/Sprint-13th-july/data/text1
+[2024-07-24 11:25:06] [INFO ] String found in file - /home2/user16/code/logs/logfile.txt
+[2024-07-24 11:25:06] [INFO ] String found in file - /home2/user16/code/data/text1
+[2024-07-24 11:25:14] [INFO ] Reading contents of file - /home2/user16/TrainingJune13/pipes/fullduplex.c
+[2024-07-24 11:25:14] [INFO ] File exists - TRUE
+[2024-07-24 11:25:57] [INFO ] Reading contents of file - #include <stdio.h>
+[2024-07-24 11:25:57] [FATAL] File exists - FALSE
+[2024-07-24 11:25:57] [INFO ] Reading contents of file - include <stdlib.h>
+[2024-07-24 11:25:57] [FATAL] File exists - FALSE
+[2024-07-24 11:25:57] [INFO ] Reading contents of file - include <unistd.h>
+[2024-07-24 11:25:57] [FATAL] File exists - FALSE
+[2024-07-24 11:25:57] [INFO ] Reading contents of file - include <sys/wait.h>
+[2024-07-24 11:25:57] [FATAL] File exists - FALSE
+[2024-07-24 11:25:57] [INFO ] Reading contents of file - include <sys/types.h>
+[2024-07-24 11:25:57] [FATAL] File exists - FALSE
+[2024-07-24 11:25:57] [INFO ] Reading contents of file - define SIZE 1024
+[2024-07-24 11:25:57] [FATAL] File exists - FALSE
+[2024-07-24 11:25:57] [INFO ] Reading contents of file - nt main()
+[2024-07-24 11:25:57] [FATAL] File exists - FALSE
+[2024-07-24 11:25:57] [INFO ] Reading contents of file - 
+[2024-07-24 11:25:57] [FATAL] File exists - FALSE
+[2024-07-24 11:25:57] [INFO ] Reading contents of file - nt fd1[2], fd2[2];
+[2024-07-24 11:25:57] [FATAL] File exists - FALSE
+[2024-07-24 11:25:57] [INFO ] Reading contents of file - har buf1[SIZE], buf2[SIZE];
+[2024-07-24 11:25:57] [FATAL] File exists - FALSE
+[2024-07-24 11:25:57] [INFO ] Reading contents of file - id_t pid;
+[2024-07-24 11:25:57] [FATAL] File exists - FALSE
+[2024-07-24 11:25:57] [INFO ] Reading contents of file - f(pipe(fd1) == -1){
+[2024-07-24 11:25:57] [FATAL] File exists - FALSE
+[2024-07-24 11:25:57] [INFO ] Reading contents of file - error("pipe1");
+[2024-07-24 11:25:57] [FATAL] File exists - FALSE
+[2024-07-24 11:25:57] [INFO ] Reading contents of file - xit(EXIT_FAILURE);
+[2024-07-24 11:25:57] [FATAL] File exists - FALSE
+[2024-07-24 11:25:57] [INFO ] Reading contents of file - 
+[2024-07-24 11:25:57] [FATAL] File exists - FALSE
+[2024-07-24 11:25:57] [INFO ] Reading contents of file - f(pipe(fd2) == -1){
+[2024-07-24 11:25:57] [FATAL] File exists - FALSE
+[2024-07-24 11:25:57] [INFO ] Reading contents of file - error("pipe2");
+[2024-07-24 11:25:57] [FATAL] File exists - FALSE
+[2024-07-24 11:25:57] [INFO ] Reading contents of file - xit(EXIT_FAILURE);
+[2024-07-24 11:25:57] [FATAL] File exists - FALSE
+[2024-07-24 11:25:57] [INFO ] Reading contents of file - 
+[2024-07-24 11:25:57] [FATAL] File exists - FALSE
+[2024-07-24 11:26:04] [INFO ] Exiting execution 
+[2024-07-24 11:26:04] [INFO ] Closing Socket Now. 
+[2024-07-24 11:26:04] [INFO ] Socket is now closed.
+[2024-07-24 11:26:07] [INFO ] Creating Socket.
+[2024-07-24 11:26:07] [INFO ] Binding to port
+[2024-07-24 11:26:07] [INFO ] Listening for incoming connections
+[2024-07-24 11:26:07] [INFO ] Server Listening on port. 15602
+
+[2024-07-24 11:26:51] [INFO ] Reading contents of file - /home2/user16/Sprint-13th-july/logs/logfile.txt
+[2024-07-24 11:26:51] [INFO ] File exists - TRUE
+[2024-07-24 11:27:23] [INFO ] Exiting execution 
+[2024-07-24 11:27:23] [INFO ] Closing Socket Now. 
+[2024-07-24 11:27:23] [INFO ] Socket is now closed.

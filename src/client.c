@@ -8,7 +8,7 @@
 
 
 #define SIZE 16000 
-#define MYPORT 15836 
+#define MYPORT 15602 
 
 int main()
 {   // Create socket
